@@ -71,7 +71,7 @@ app.service('payments').filter('status', function(data, connection, hook) {
 
 ## Registering filters
 
-There are several ways of registering filter functions, very similar to how [hooks](hooks.md) can be registered.
+There are several ways of registering filter functions, very similar to how [hooks](../hooks/readme.md) can be registered.
 
 ```js
 const todos = app.service('todos');
